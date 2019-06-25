@@ -1,6 +1,6 @@
 package classes;
 
-import controller.Controller;
+import javafx.scene.control.CheckBox;
 
 import javax.sound.midi.*;
 
@@ -10,8 +10,8 @@ public class Midi
     private Sequence sequence;
     private Track track;
     private int instrumentNumbers[] = {46, 42, 50, 48, 47, 45, 43, 41, 38, 35, 49, 51};
-    public boolean playTab[][];
     private int tempo = 120;
+    public static CheckBox[][] checkBoxTab;
 
     public int getTempo()
     {
@@ -25,7 +25,7 @@ public class Midi
 
     public Midi()
     {
-        playTab = new boolean[12][16];
+        checkBoxTab =  new CheckBox[12][16];
         configureMIDI();
     }
 
@@ -47,7 +47,6 @@ public class Midi
     public void createAndPlay()
     {
         int[] trackList = null;
-
         sequence.deleteTrack(track);
         track = sequence.createTrack();
 
@@ -59,7 +58,7 @@ public class Midi
 
             for (int j = 0; j < 16; j++)
             {
-                if (playTab[i][j])
+                if (checkBoxTab[i][j].isSelected())
                     trackList[j] = key;
                 else
                     trackList[j] = 0;
@@ -79,6 +78,11 @@ public class Midi
         {
             ex.printStackTrace();
         }
+    }
+
+    public void stopPlay()
+    {
+        sequencer.stop();
     }
 
     private void createTrack(int[] list)
