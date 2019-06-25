@@ -1,7 +1,6 @@
 package controller;
 
 import classes.Midi;
-import javafx.application.Platform;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.CheckBox;
@@ -60,7 +59,12 @@ public class Controller
     @FXML
     public void checkbox0_0OnAction()
     {
-        System.out.println("0_0");
+        if(midi.playTab[0][0])
+            midi.playTab[0][0] = false;
+        else
+            midi.playTab[0][0] = true;
+
+        System.out.println(midi.playTab[0][0]);
     }
 
     @FXML
