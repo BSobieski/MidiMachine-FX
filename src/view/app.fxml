@@ -333,8 +333,8 @@
     <bottom>
         <AnchorPane prefHeight="50.0" prefWidth="660.0" BorderPane.alignment="CENTER">
             <children>
-                <ScrollBar fx:id="tempoScrollBar" blockIncrement="1.0" layoutX="180.0" layoutY="6.0" max="300.0" min="30.0" prefHeight="17.0" prefWidth="300.0" value="120.0" visibleAmount="1.0" />
-                <Label fx:id="tempoLabel" layoutX="121.0" layoutY="6.0" text="Tempo">
+                <ScrollBar fx:id="tempoScrollBar" blockIncrement="1.0" layoutX="76.0" layoutY="6.0" max="300.0" min="30.0" prefHeight="17.0" prefWidth="550.0" value="120.0" visibleAmount="1.0" />
+                <Label fx:id="tempoLabel" layoutX="14.0" layoutY="6.0" text="Tempo">
                     <font>
                         <Font name="Agency FB" size="14.0" />
                     </font>

@@ -17,6 +17,28 @@ public class Controller
         midi = new Midi();
     }
 
+
+    @FXML
+    public void initialize()
+    {
+        tempoLabel.setText("Tempo: " + midi.getTempo());
+        tempoScrollBarAddValueListener();
+    }
+
+    @FXML
+    private void setTempoLabel()
+    {
+        tempoLabel.setText("Tempo: " + midi.getTempo());
+    }
+
+    public void tempoScrollBarAddValueListener()
+    {
+        tempoScrollBar.valueProperty().addListener(event->{
+            midi.setTempo((int)tempoScrollBar.getValue());
+            setTempoLabel();
+        });
+    }
+
     @FXML
     public void playButtonOnAction()
     {

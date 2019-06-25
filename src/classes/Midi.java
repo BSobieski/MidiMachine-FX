@@ -13,6 +13,16 @@ public class Midi
     public boolean playTab[][];
     private int tempo = 120;
 
+    public int getTempo()
+    {
+        return tempo;
+    }
+
+    public void setTempo(int tempo)
+    {
+        this.tempo = tempo;
+    }
+
     public Midi()
     {
         playTab = new boolean[12][16];
