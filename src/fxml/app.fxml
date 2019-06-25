@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="470.0" prefWidth="660.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.Controller">
+    <top>
+        <Label prefHeight="56.0" prefWidth="162.0" text="MidiMachine FX" BorderPane.alignment="CENTER">
+            <font>
+                <Font name="Agency FB" size="34.0" />
+            </font>
+        </Label>
+    </top>
+    <right>
+        <VBox prefHeight="200.0" prefWidth="100.0" spacing="10.0" BorderPane.alignment="CENTER">
+            <children>
+                <Button fx:id="playButton" mnemonicParsing="false" prefHeight="25.0" prefWidth="105.0" text="Play">
+                    <font>
+                        <Font name="Agency FB" size="16.0" />
+                    </font>
+                </Button>
+                <Button fx:id="stopButton" mnemonicParsing="false" prefHeight="25.0" prefWidth="105.0" text="Stop">
+                    <font>
+                        <Font name="Agency FB" size="16.0" />
+                    </font>
+                </Button>
+            </children>
+        </VBox>
+    </right>
+    <center>
+        <GridPane hgap="10.0" vgap="9.8" BorderPane.alignment="CENTER">
+            <columnConstraints>
+                <ColumnConstraints maxWidth="19.0" minWidth="19.0" prefWidth="19.0" />
+                <ColumnConstraints maxWidth="19.0" minWidth="19.0" prefWidth="19.0" />
+                <ColumnConstraints maxWidth="19.0" minWidth="19.0" prefWidth="19.0" />
+                <ColumnConstraints maxWidth="19.0" minWidth="19.0" prefWidth="19.0" />
+                <ColumnConstraints maxWidth="19.0" minWidth="19.0" prefWidth="19.0" />
+                <ColumnConstraints maxWidth="19.0" minWidth="19.0" prefWidth="19.0" />
+                <ColumnConstraints maxWidth="19.0" minWidth="19.0" prefWidth="19.0" />
+                <ColumnConstraints maxWidth="19.0" minWidth="19.0" prefWidth="19.0" />
+                <ColumnConstraints maxWidth="19.0" minWidth="19.0" prefWidth="19.0" />
+                <ColumnConstraints maxWidth="19.0" minWidth="19.0" prefWidth="19.0" />
+                <ColumnConstraints maxWidth="19.0" minWidth="19.0" prefWidth="19.0" />
+                <ColumnConstraints maxWidth="19.0" minWidth="19.0" prefWidth="19.0" />
+                <ColumnConstraints maxWidth="19.0" minWidth="19.0" prefWidth="19.0" />
+                <ColumnConstraints maxWidth="19.0" minWidth="19.0" prefWidth="19.0" />
+                <ColumnConstraints maxWidth="19.0" minWidth="19.0" prefWidth="19.0" />
+                <ColumnConstraints maxWidth="19.0" minWidth="19.0" prefWidth="19.0" />
+            </columnConstraints>
+            <rowConstraints>
+                <RowConstraints maxHeight="19.0" minHeight="19.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="19.0" minHeight="19.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="19.0" minHeight="19.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="19.0" minHeight="19.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="19.0" minHeight="19.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="19.0" minHeight="19.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="19.0" minHeight="19.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="19.0" minHeight="19.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="19.0" minHeight="19.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="19.0" minHeight="19.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="19.0" minHeight="19.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="19.0" minHeight="19.0" vgrow="SOMETIMES" />
+            </rowConstraints>
+            <children>
+                <CheckBox fx:id="checkbox0_0" mnemonicParsing="false" />
+                <CheckBox fx:id="checkbox0_1" mnemonicParsing="false" GridPane.columnIndex="1" />
+                <CheckBox fx:id="checkbox0_2" mnemonicParsing="false" GridPane.columnIndex="2" />
+                <CheckBox fx:id="checkbox0_3" mnemonicParsing="false" GridPane.columnIndex="3" />
+                <CheckBox fx:id="checkbox0_4" mnemonicParsing="false" GridPane.columnIndex="4" />
+                <CheckBox fx:id="checkbox0_5" mnemonicParsing="false" GridPane.columnIndex="5" />
+                <CheckBox fx:id="checkbox0_6" mnemonicParsing="false" GridPane.columnIndex="6" />
+                <CheckBox fx:id="checkbox0_7" mnemonicParsing="false" GridPane.columnIndex="7" />
+                <CheckBox fx:id="checkbox0_8" mnemonicParsing="false" GridPane.columnIndex="8" />
+                <CheckBox fx:id="checkbox0_9" mnemonicParsing="false" GridPane.columnIndex="9" />
+                <CheckBox fx:id="checkbox0_10" mnemonicParsing="false" GridPane.columnIndex="10" />
+                <CheckBox fx:id="checkbox0_11" mnemonicParsing="false" GridPane.columnIndex="11" />
+                <CheckBox fx:id="checkbox0_12" mnemonicParsing="false" GridPane.columnIndex="12" />
+                <CheckBox fx:id="checkbox0_13" mnemonicParsing="false" GridPane.columnIndex="13" />
+                <CheckBox fx:id="checkbox0_14" mnemonicParsing="false" GridPane.columnIndex="14" />
+                <CheckBox fx:id="checkbox0_15" mnemonicParsing="false" GridPane.columnIndex="15" />
+                <CheckBox fx:id="checkbox1_0" mnemonicParsing="false" GridPane.rowIndex="1" />
+                <CheckBox fx:id="checkbox1_1" mnemonicParsing="false" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                <CheckBox fx:id="checkbox1_2" mnemonicParsing="false" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+                <CheckBox fx:id="checkbox1_3" mnemonicParsing="false" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+                <CheckBox fx:id="checkbox1_4" mnemonicParsing="false" GridPane.columnIndex="4" GridPane.rowIndex="1" />
+                <CheckBox fx:id="checkbox1_5" mnemonicParsing="false" GridPane.columnIndex="5" GridPane.rowIndex="1" />
+                <CheckBox fx:id="checkbox1_6" mnemonicParsing="false" GridPane.columnIndex="6" GridPane.rowIndex="1" />
+                <CheckBox fx:id="checkbox1_7" mnemonicParsing="false" GridPane.columnIndex="7" GridPane.rowIndex="1" />
+                <CheckBox fx:id="checkbox1_8" mnemonicParsing="false" GridPane.columnIndex="8" GridPane.rowIndex="1" />
+                <CheckBox fx:id="checkbox1_9" mnemonicParsing="false" GridPane.columnIndex="9" GridPane.rowIndex="1" />
+                <CheckBox fx:id="checkbox1_10" mnemonicParsing="false" GridPane.columnIndex="10" GridPane.rowIndex="1" />
+                <CheckBox fx:id="checkbox1_11" mnemonicParsing="false" GridPane.columnIndex="11" GridPane.rowIndex="1" />
+                <CheckBox fx:id="checkbox1_12" mnemonicParsing="false" GridPane.columnIndex="12" GridPane.rowIndex="1" />
+                <CheckBox fx:id="checkbox1_13" mnemonicParsing="false" GridPane.columnIndex="13" GridPane.rowIndex="1" />
+                <CheckBox fx:id="checkbox1_14" mnemonicParsing="false" GridPane.columnIndex="14" GridPane.rowIndex="1" />
+                <CheckBox fx:id="checkbox1_15" mnemonicParsing="false" GridPane.columnIndex="15" GridPane.rowIndex="1" />
+                <CheckBox fx:id="checkbox2_0" mnemonicParsing="false" GridPane.rowIndex="2" />
+                <CheckBox fx:id="checkbox2_1" mnemonicParsing="false" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                <CheckBox fx:id="checkbox2_2" mnemonicParsing="false" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+                <CheckBox fx:id="checkbox2_3" mnemonicParsing="false" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+                <CheckBox fx:id="checkbox2_4" mnemonicParsing="false" GridPane.columnIndex="4" GridPane.rowIndex="2" />
+                <CheckBox fx:id="checkbox2_5" mnemonicParsing="false" GridPane.columnIndex="5" GridPane.rowIndex="2" />
+                <CheckBox fx:id="checkbox2_6" mnemonicParsing="false" GridPane.columnIndex="6" GridPane.rowIndex="2" />
+                <CheckBox fx:id="checkbox2_7" mnemonicParsing="false" GridPane.columnIndex="7" GridPane.rowIndex="2" />
+                <CheckBox fx:id="checkbox2_8" mnemonicParsing="false" GridPane.columnIndex="8" GridPane.rowIndex="2" />
+                <CheckBox fx:id="checkbox2_9" mnemonicParsing="false" GridPane.columnIndex="9" GridPane.rowIndex="2" />
+                <CheckBox fx:id="checkbox2_10" mnemonicParsing="false" GridPane.columnIndex="10" GridPane.rowIndex="2" />
+                <CheckBox fx:id="checkbox2_11" mnemonicParsing="false" GridPane.columnIndex="11" GridPane.rowIndex="2" />
+                <CheckBox fx:id="checkbox2_12" mnemonicParsing="false" GridPane.columnIndex="12" GridPane.rowIndex="2" />
+                <CheckBox fx:id="checkbox2_13" mnemonicParsing="false" GridPane.columnIndex="13" GridPane.rowIndex="2" />
+                <CheckBox fx:id="checkbox2_14" mnemonicParsing="false" GridPane.columnIndex="14" GridPane.rowIndex="2" />
+                <CheckBox fx:id="checkbox2_15" mnemonicParsing="false" GridPane.columnIndex="15" GridPane.rowIndex="2" />
+                <CheckBox fx:id="checkbox3_0" mnemonicParsing="false" GridPane.rowIndex="3" />
+                <CheckBox fx:id="checkbox3_1" mnemonicParsing="false" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                <CheckBox fx:id="checkbox3_2" mnemonicParsing="false" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+                <CheckBox fx:id="checkbox3_3" mnemonicParsing="false" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+                <CheckBox fx:id="checkbox3_4" mnemonicParsing="false" GridPane.columnIndex="4" GridPane.rowIndex="3" />
+                <CheckBox fx:id="checkbox3_5" mnemonicParsing="false" GridPane.columnIndex="5" GridPane.rowIndex="3" />
+                <CheckBox fx:id="checkbox3_6" mnemonicParsing="false" GridPane.columnIndex="6" GridPane.rowIndex="3" />
+                <CheckBox fx:id="checkbox3_7" mnemonicParsing="false" GridPane.columnIndex="7" GridPane.rowIndex="3" />
+                <CheckBox fx:id="checkbox3_8" mnemonicParsing="false" GridPane.columnIndex="8" GridPane.rowIndex="3" />
+                <CheckBox fx:id="checkbox3_9" mnemonicParsing="false" GridPane.columnIndex="9" GridPane.rowIndex="3" />
+                <CheckBox fx:id="checkbox3_10" mnemonicParsing="false" GridPane.columnIndex="10" GridPane.rowIndex="3" />
+                <CheckBox fx:id="checkbox3_11" mnemonicParsing="false" GridPane.columnIndex="11" GridPane.rowIndex="3" />
+                <CheckBox fx:id="checkbox3_12" mnemonicParsing="false" GridPane.columnIndex="12" GridPane.rowIndex="3" />
+                <CheckBox fx:id="checkbox3_13" mnemonicParsing="false" GridPane.columnIndex="13" GridPane.rowIndex="3" />
+                <CheckBox fx:id="checkbox3_14" mnemonicParsing="false" GridPane.columnIndex="14" GridPane.rowIndex="3" />
+                <CheckBox fx:id="checkbox3_15" mnemonicParsing="false" GridPane.columnIndex="15" GridPane.rowIndex="3" />
+                <CheckBox fx:id="checkbox4_0" mnemonicParsing="false" GridPane.rowIndex="4" />
+                <CheckBox fx:id="checkbox4_1" mnemonicParsing="false" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+                <CheckBox fx:id="checkbox4_2" mnemonicParsing="false" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+                <CheckBox fx:id="checkbox4_3" mnemonicParsing="false" GridPane.columnIndex="3" GridPane.rowIndex="4" />
+                <CheckBox fx:id="checkbox4_4" mnemonicParsing="false" GridPane.columnIndex="4" GridPane.rowIndex="4" />
+                <CheckBox fx:id="checkbox4_5" mnemonicParsing="false" GridPane.columnIndex="5" GridPane.rowIndex="4" />
+                <CheckBox fx:id="checkbox4_6" mnemonicParsing="false" GridPane.columnIndex="6" GridPane.rowIndex="4" />
+                <CheckBox fx:id="checkbox4_7" mnemonicParsing="false" GridPane.columnIndex="7" GridPane.rowIndex="4" />
+                <CheckBox fx:id="checkbox4_8" mnemonicParsing="false" GridPane.columnIndex="8" GridPane.rowIndex="4" />
+                <CheckBox fx:id="checkbox4_9" mnemonicParsing="false" GridPane.columnIndex="9" GridPane.rowIndex="4" />
+                <CheckBox fx:id="checkbox4_10" mnemonicParsing="false" GridPane.columnIndex="10" GridPane.rowIndex="4" />
+                <CheckBox fx:id="checkbox4_11" mnemonicParsing="false" GridPane.columnIndex="11" GridPane.rowIndex="4" />
+                <CheckBox fx:id="checkbox4_12" mnemonicParsing="false" GridPane.columnIndex="12" GridPane.rowIndex="4" />
+                <CheckBox fx:id="checkbox4_13" mnemonicParsing="false" GridPane.columnIndex="13" GridPane.rowIndex="4" />
+                <CheckBox fx:id="checkbox4_14" mnemonicParsing="false" GridPane.columnIndex="14" GridPane.rowIndex="4" />
+                <CheckBox fx:id="checkbox4_15" mnemonicParsing="false" GridPane.columnIndex="15" GridPane.rowIndex="4" />
+                <CheckBox fx:id="checkbox5_0" mnemonicParsing="false" GridPane.rowIndex="5" />
+                <CheckBox fx:id="checkbox5_1" mnemonicParsing="false" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+                <CheckBox fx:id="checkbox5_2" mnemonicParsing="false" GridPane.columnIndex="2" GridPane.rowIndex="5" />
+                <CheckBox fx:id="checkbox5_3" mnemonicParsing="false" GridPane.columnIndex="3" GridPane.rowIndex="5" />
+                <CheckBox fx:id="checkbox5_4" mnemonicParsing="false" GridPane.columnIndex="4" GridPane.rowIndex="5" />
+                <CheckBox fx:id="checkbox5_5" mnemonicParsing="false" GridPane.columnIndex="5" GridPane.rowIndex="5" />
+                <CheckBox fx:id="checkbox5_6" mnemonicParsing="false" GridPane.columnIndex="6" GridPane.rowIndex="5" />
+                <CheckBox fx:id="checkbox5_7" mnemonicParsing="false" GridPane.columnIndex="7" GridPane.rowIndex="5" />
+                <CheckBox fx:id="checkbox5_8" mnemonicParsing="false" GridPane.columnIndex="8" GridPane.rowIndex="5" />
+                <CheckBox fx:id="checkbox5_9" mnemonicParsing="false" GridPane.columnIndex="9" GridPane.rowIndex="5" />
+                <CheckBox fx:id="checkbox5_10" mnemonicParsing="false" GridPane.columnIndex="10" GridPane.rowIndex="5" />
+                <CheckBox fx:id="checkbox5_11" mnemonicParsing="false" GridPane.columnIndex="11" GridPane.rowIndex="5" />
+                <CheckBox fx:id="checkbox5_12" mnemonicParsing="false" GridPane.columnIndex="12" GridPane.rowIndex="5" />
+                <CheckBox fx:id="checkbox5_13" mnemonicParsing="false" GridPane.columnIndex="13" GridPane.rowIndex="5" />
+                <CheckBox fx:id="checkbox5_14" mnemonicParsing="false" GridPane.columnIndex="14" GridPane.rowIndex="5" />
+                <CheckBox fx:id="checkbox5_15" mnemonicParsing="false" GridPane.columnIndex="15" GridPane.rowIndex="5" />
+                <CheckBox fx:id="checkbox6_0" mnemonicParsing="false" GridPane.rowIndex="6" />
+                <CheckBox fx:id="checkbox6_1" mnemonicParsing="false" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+                <CheckBox fx:id="checkbox6_2" mnemonicParsing="false" GridPane.columnIndex="2" GridPane.rowIndex="6" />
+                <CheckBox fx:id="checkbox6_3" mnemonicParsing="false" GridPane.columnIndex="3" GridPane.rowIndex="6" />
+                <CheckBox fx:id="checkbox6_4" mnemonicParsing="false" GridPane.columnIndex="4" GridPane.rowIndex="6" />
+                <CheckBox fx:id="checkbox6_5" mnemonicParsing="false" GridPane.columnIndex="5" GridPane.rowIndex="6" />
+                <CheckBox fx:id="checkbox6_6" mnemonicParsing="false" GridPane.columnIndex="6" GridPane.rowIndex="6" />
+                <CheckBox fx:id="checkbox6_7" mnemonicParsing="false" GridPane.columnIndex="7" GridPane.rowIndex="6" />
+                <CheckBox fx:id="checkbox6_8" mnemonicParsing="false" GridPane.columnIndex="8" GridPane.rowIndex="6" />
+                <CheckBox fx:id="checkbox6_9" mnemonicParsing="false" GridPane.columnIndex="9" GridPane.rowIndex="6" />
+                <CheckBox fx:id="checkbox6_10" mnemonicParsing="false" GridPane.columnIndex="10" GridPane.rowIndex="6" />
+                <CheckBox fx:id="checkbox6_11" mnemonicParsing="false" GridPane.columnIndex="11" GridPane.rowIndex="6" />
+                <CheckBox fx:id="checkbox6_12" mnemonicParsing="false" GridPane.columnIndex="12" GridPane.rowIndex="6" />
+                <CheckBox fx:id="checkbox6_13" mnemonicParsing="false" GridPane.columnIndex="13" GridPane.rowIndex="6" />
+                <CheckBox fx:id="checkbox6_14" mnemonicParsing="false" GridPane.columnIndex="14" GridPane.rowIndex="6" />
+                <CheckBox fx:id="checkbox6_15" mnemonicParsing="false" GridPane.columnIndex="15" GridPane.rowIndex="6" />
+                <CheckBox fx:id="checkbox7_0" mnemonicParsing="false" GridPane.rowIndex="7" />
+                <CheckBox fx:id="checkbox7_1" mnemonicParsing="false" GridPane.columnIndex="1" GridPane.rowIndex="7" />
+                <CheckBox fx:id="checkbox7_2" mnemonicParsing="false" GridPane.columnIndex="2" GridPane.rowIndex="7" />
+                <CheckBox fx:id="checkbox7_3" mnemonicParsing="false" GridPane.columnIndex="3" GridPane.rowIndex="7" />
+                <CheckBox fx:id="checkbox7_4" mnemonicParsing="false" GridPane.columnIndex="4" GridPane.rowIndex="7" />
+                <CheckBox fx:id="checkbox7_5" mnemonicParsing="false" GridPane.columnIndex="5" GridPane.rowIndex="7" />
+                <CheckBox fx:id="checkbox7_6" mnemonicParsing="false" GridPane.columnIndex="6" GridPane.rowIndex="7" />
+                <CheckBox fx:id="checkbox7_7" mnemonicParsing="false" GridPane.columnIndex="7" GridPane.rowIndex="7" />
+                <CheckBox fx:id="checkbox7_8" mnemonicParsing="false" GridPane.columnIndex="8" GridPane.rowIndex="7" />
+                <CheckBox fx:id="checkbox7_9" mnemonicParsing="false" GridPane.columnIndex="9" GridPane.rowIndex="7" />
+                <CheckBox fx:id="checkbox7_10" mnemonicParsing="false" GridPane.columnIndex="10" GridPane.rowIndex="7" />
+                <CheckBox fx:id="checkbox7_11" mnemonicParsing="false" GridPane.columnIndex="11" GridPane.rowIndex="7" />
+                <CheckBox fx:id="checkbox7_12" mnemonicParsing="false" GridPane.columnIndex="12" GridPane.rowIndex="7" />
+                <CheckBox fx:id="checkbox7_13" mnemonicParsing="false" GridPane.columnIndex="13" GridPane.rowIndex="7" />
+                <CheckBox fx:id="checkbox7_14" mnemonicParsing="false" GridPane.columnIndex="14" GridPane.rowIndex="7" />
+                <CheckBox fx:id="checkbox7_15" mnemonicParsing="false" GridPane.columnIndex="15" GridPane.rowIndex="7" />
+                <CheckBox fx:id="checkbox8_0" mnemonicParsing="false" GridPane.rowIndex="8" />
+                <CheckBox fx:id="checkbox8_1" mnemonicParsing="false" GridPane.columnIndex="1" GridPane.rowIndex="8" />
+                <CheckBox fx:id="checkbox8_2" mnemonicParsing="false" GridPane.columnIndex="2" GridPane.rowIndex="8" />
+                <CheckBox fx:id="checkbox8_3" mnemonicParsing="false" GridPane.columnIndex="3" GridPane.rowIndex="8" />
+                <CheckBox fx:id="checkbox8_4" mnemonicParsing="false" GridPane.columnIndex="4" GridPane.rowIndex="8" />
+                <CheckBox fx:id="checkbox8_5" mnemonicParsing="false" GridPane.columnIndex="5" GridPane.rowIndex="8" />
+                <CheckBox fx:id="checkbox8_6" mnemonicParsing="false" GridPane.columnIndex="6" GridPane.rowIndex="8" />
+                <CheckBox fx:id="checkbox8_7" mnemonicParsing="false" GridPane.columnIndex="7" GridPane.rowIndex="8" />
+                <CheckBox fx:id="checkbox8_8" mnemonicParsing="false" GridPane.columnIndex="8" GridPane.rowIndex="8" />
+                <CheckBox fx:id="checkbox8_9" mnemonicParsing="false" GridPane.columnIndex="9" GridPane.rowIndex="8" />
+                <CheckBox fx:id="checkbox8_10" mnemonicParsing="false" GridPane.columnIndex="10" GridPane.rowIndex="8" />
+                <CheckBox fx:id="checkbox8_11" mnemonicParsing="false" GridPane.columnIndex="11" GridPane.rowIndex="8" />
+                <CheckBox fx:id="checkbox8_12" mnemonicParsing="false" GridPane.columnIndex="12" GridPane.rowIndex="8" />
+                <CheckBox fx:id="checkbox8_13" mnemonicParsing="false" GridPane.columnIndex="13" GridPane.rowIndex="8" />
+                <CheckBox fx:id="checkbox8_14" mnemonicParsing="false" GridPane.columnIndex="14" GridPane.rowIndex="8" />
+                <CheckBox fx:id="checkbox8_15" mnemonicParsing="false" GridPane.columnIndex="15" GridPane.rowIndex="8" />
+                <CheckBox fx:id="checkbox9_0" mnemonicParsing="false" GridPane.rowIndex="9" />
+                <CheckBox fx:id="checkbox9_1" mnemonicParsing="false" GridPane.columnIndex="1" GridPane.rowIndex="9" />
+                <CheckBox fx:id="checkbox9_2" mnemonicParsing="false" GridPane.columnIndex="2" GridPane.rowIndex="9" />
+                <CheckBox fx:id="checkbox9_3" mnemonicParsing="false" GridPane.columnIndex="3" GridPane.rowIndex="9" />
+                <CheckBox fx:id="checkbox9_4" mnemonicParsing="false" GridPane.columnIndex="4" GridPane.rowIndex="9" />
+                <CheckBox fx:id="checkbox9_5" mnemonicParsing="false" GridPane.columnIndex="5" GridPane.rowIndex="9" />
+                <CheckBox fx:id="checkbox9_6" mnemonicParsing="false" GridPane.columnIndex="6" GridPane.rowIndex="9" />
+                <CheckBox fx:id="checkbox9_7" mnemonicParsing="false" GridPane.columnIndex="7" GridPane.rowIndex="9" />
+                <CheckBox fx:id="checkbox9_8" mnemonicParsing="false" GridPane.columnIndex="8" GridPane.rowIndex="9" />
+                <CheckBox fx:id="checkbox9_9" mnemonicParsing="false" GridPane.columnIndex="9" GridPane.rowIndex="9" />
+                <CheckBox fx:id="checkbox9_10" mnemonicParsing="false" GridPane.columnIndex="10" GridPane.rowIndex="9" />
+                <CheckBox fx:id="checkbox9_11" mnemonicParsing="false" GridPane.columnIndex="11" GridPane.rowIndex="9" />
+                <CheckBox fx:id="checkbox9_12" mnemonicParsing="false" GridPane.columnIndex="12" GridPane.rowIndex="9" />
+                <CheckBox fx:id="checkbox9_13" mnemonicParsing="false" GridPane.columnIndex="13" GridPane.rowIndex="9" />
+                <CheckBox fx:id="checkbox9_14" mnemonicParsing="false" GridPane.columnIndex="14" GridPane.rowIndex="9" />
+                <CheckBox fx:id="checkbox9_15" mnemonicParsing="false" GridPane.columnIndex="15" GridPane.rowIndex="9" />
+                <CheckBox fx:id="checkbox10_0" mnemonicParsing="false" GridPane.rowIndex="10" />
+                <CheckBox fx:id="checkbox10_1" mnemonicParsing="false" GridPane.columnIndex="1" GridPane.rowIndex="10" />
+                <CheckBox fx:id="checkbox10_2" mnemonicParsing="false" GridPane.columnIndex="2" GridPane.rowIndex="10" />
+                <CheckBox fx:id="checkbox10_3" mnemonicParsing="false" GridPane.columnIndex="3" GridPane.rowIndex="10" />
+                <CheckBox fx:id="checkbox10_4" mnemonicParsing="false" GridPane.columnIndex="4" GridPane.rowIndex="10" />
+                <CheckBox fx:id="checkbox10_5" mnemonicParsing="false" GridPane.columnIndex="5" GridPane.rowIndex="10" />
+                <CheckBox fx:id="checkbox10_6" mnemonicParsing="false" GridPane.columnIndex="6" GridPane.rowIndex="10" />
+                <CheckBox fx:id="checkbox10_7" mnemonicParsing="false" GridPane.columnIndex="7" GridPane.rowIndex="10" />
+                <CheckBox fx:id="checkbox10_8" mnemonicParsing="false" GridPane.columnIndex="8" GridPane.rowIndex="10" />
+                <CheckBox fx:id="checkbox10_9" mnemonicParsing="false" GridPane.columnIndex="9" GridPane.rowIndex="10" />
+                <CheckBox fx:id="checkbox10_10" mnemonicParsing="false" GridPane.columnIndex="10" GridPane.rowIndex="10" />
+                <CheckBox fx:id="checkbox10_11" mnemonicParsing="false" GridPane.columnIndex="11" GridPane.rowIndex="10" />
+                <CheckBox fx:id="checkbox10_12" mnemonicParsing="false" GridPane.columnIndex="12" GridPane.rowIndex="10" />
+                <CheckBox fx:id="checkbox10_13" mnemonicParsing="false" GridPane.columnIndex="13" GridPane.rowIndex="10" />
+                <CheckBox fx:id="checkbox10_14" mnemonicParsing="false" GridPane.columnIndex="14" GridPane.rowIndex="10" />
+                <CheckBox fx:id="checkbox10_15" mnemonicParsing="false" GridPane.columnIndex="15" GridPane.rowIndex="10" />
+                <CheckBox fx:id="checkbox11_0" mnemonicParsing="false" GridPane.rowIndex="11" />
+                <CheckBox fx:id="checkbox11_1" mnemonicParsing="false" GridPane.columnIndex="1" GridPane.rowIndex="11" />
+                <CheckBox fx:id="checkbox11_2" mnemonicParsing="false" GridPane.columnIndex="2" GridPane.rowIndex="11" />
+                <CheckBox fx:id="checkbox11_3" mnemonicParsing="false" GridPane.columnIndex="3" GridPane.rowIndex="11" />
+                <CheckBox fx:id="checkbox11_4" mnemonicParsing="false" GridPane.columnIndex="4" GridPane.rowIndex="11" />
+                <CheckBox fx:id="checkbox11_5" mnemonicParsing="false" GridPane.columnIndex="5" GridPane.rowIndex="11" />
+                <CheckBox fx:id="checkbox11_6" mnemonicParsing="false" GridPane.columnIndex="6" GridPane.rowIndex="11" />
+                <CheckBox fx:id="checkbox11_7" mnemonicParsing="false" GridPane.columnIndex="7" GridPane.rowIndex="11" />
+                <CheckBox fx:id="checkbox11_8" mnemonicParsing="false" GridPane.columnIndex="8" GridPane.rowIndex="11" />
+                <CheckBox fx:id="checkbox11_9" mnemonicParsing="false" GridPane.columnIndex="9" GridPane.rowIndex="11" />
+                <CheckBox fx:id="checkbox11_10" mnemonicParsing="false" GridPane.columnIndex="10" GridPane.rowIndex="11" />
+                <CheckBox fx:id="checkbox11_11" mnemonicParsing="false" GridPane.columnIndex="11" GridPane.rowIndex="11" />
+                <CheckBox fx:id="checkbox11_12" mnemonicParsing="false" GridPane.columnIndex="12" GridPane.rowIndex="11" />
+                <CheckBox fx:id="checkbox11_13" mnemonicParsing="false" GridPane.columnIndex="13" GridPane.rowIndex="11" />
+                <CheckBox fx:id="checkbox11_14" mnemonicParsing="false" GridPane.columnIndex="14" GridPane.rowIndex="11" />
+                <CheckBox fx:id="checkbox11_15" mnemonicParsing="false" GridPane.columnIndex="15" GridPane.rowIndex="11" />
+            </children>
+        </GridPane>
+    </center>
+    <left>
+        <VBox prefHeight="200.0" prefWidth="100.0" spacing="9.0" BorderPane.alignment="CENTER">
+            <children>
+                <Label alignment="CENTER_RIGHT" prefHeight="17.0" prefWidth="90.0" text="Open Hi-Hat">
+                    <font>
+                        <Font name="Agency FB" size="16.0" />
+                    </font>
+                </Label>
+                <Label alignment="CENTER_RIGHT" prefHeight="17.0" prefWidth="90.0" text="Closed Hi-Hat">
+                    <font>
+                        <Font name="Agency FB" size="16.0" />
+                    </font>
+                </Label>
+                <Label alignment="CENTER_RIGHT" prefHeight="17.0" prefWidth="90.0" text="High Tom">
+                    <font>
+                        <Font name="Agency FB" size="16.0" />
+                    </font>
+                </Label>
+                <Label alignment="CENTER_RIGHT" prefHeight="17.0" prefWidth="90.0" text="Hi-mid Tom">
+                    <font>
+                        <Font name="Agency FB" size="16.0" />
+                    </font>
+                </Label>
+                <Label alignment="CENTER_RIGHT" prefHeight="17.0" prefWidth="90.0" text="Low-mid Tom">
+                    <font>
+                        <Font name="Agency FB" size="16.0" />
+                    </font>
+                </Label>
+                <Label alignment="CENTER_RIGHT" prefHeight="17.0" prefWidth="90.0" text="Low Tom">
+                    <font>
+                        <Font name="Agency FB" size="16.0" />
+                    </font>
+                </Label>
+                <Label alignment="CENTER_RIGHT" prefHeight="17.0" prefWidth="90.0" text="High Floor Tom">
+                    <font>
+                        <Font name="Agency FB" size="16.0" />
+                    </font>
+                </Label>
+                <Label alignment="CENTER_RIGHT" prefHeight="17.0" prefWidth="90.0" text="Low Floor Tom">
+                    <font>
+                        <Font name="Agency FB" size="16.0" />
+                    </font>
+                </Label>
+                <Label alignment="CENTER_RIGHT" prefHeight="17.0" prefWidth="90.0" text="Snare Drum">
+                    <font>
+                        <Font name="Agency FB" size="16.0" />
+                    </font>
+                </Label>
+                <Label alignment="CENTER_RIGHT" prefHeight="17.0" prefWidth="90.0" text="Bass Drum">
+                    <font>
+                        <Font name="Agency FB" size="16.0" />
+                    </font>
+                </Label>
+                <Label alignment="CENTER_RIGHT" prefHeight="17.0" prefWidth="90.0" text="Crash Cymbal">
+                    <font>
+                        <Font name="Agency FB" size="16.0" />
+                    </font>
+                </Label>
+                <Label alignment="CENTER_RIGHT" prefHeight="17.0" prefWidth="90.0" text="Ride Cymbal">
+                    <font>
+                        <Font name="Agency FB" size="16.0" />
+                    </font>
+                </Label>
+            </children>
+        </VBox>
+    </left>
+   <bottom>
+      <AnchorPane prefHeight="50.0" prefWidth="660.0" BorderPane.alignment="CENTER">
+         <children>
+            <ScrollBar fx:id="tempoScrollBar" blockIncrement="1.0" layoutX="180.0" layoutY="6.0" max="300.0" min="30.0" prefHeight="17.0" prefWidth="300.0" value="30.0" visibleAmount="1.0" />
+            <Label fx:id="tempoLabel" layoutX="121.0" layoutY="6.0" text="Tempo">
+               <font>
+                  <Font name="Agency FB" size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </bottom>
+</BorderPane>
