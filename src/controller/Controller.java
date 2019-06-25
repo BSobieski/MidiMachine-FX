@@ -1,12 +1,48 @@
 package controller;
 
+import classes.Midi;
+import javafx.application.Platform;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.CheckBox;
 import javafx.scene.control.Label;
 import javafx.scene.control.ScrollBar;
 
-public class Controller {
+public class Controller
+{
+    private Midi midi;
+
+    public Controller()
+    {
+        midi = new Midi();
+    }
+
+    @FXML
+    public void playButtonOnAction()
+    {
+        System.out.println();
+    }
+
+    @FXML
+    public void stopButtonOnAction()
+    {
+        System.out.println("Stop");
+    }
+
+    @FXML
+    public void exitButtonOnAction()
+    {
+        System.exit(0);
+    }
+
+    @FXML
+    public void checkbox0_0OnAction()
+    {
+        System.out.println("0_0");
+    }
+
+    @FXML
+    private Button exitButton;
 
     @FXML
     private CheckBox checkbox7_11;
