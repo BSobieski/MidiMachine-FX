@@ -29,7 +29,7 @@ public class Midi
         configureMIDI();
     }
 
-    private void configureMIDI()
+    public void configureMIDI()
     {
         try
         {
@@ -83,6 +83,7 @@ public class Midi
     public void stopPlay()
     {
         sequencer.stop();
+        configureMIDI();
     }
 
     private void createTrack(int[] list)

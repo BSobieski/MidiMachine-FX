@@ -23,17 +23,25 @@ public class Controller
     }
 
     @FXML
+    public void tempoScrollEndOfEditingTempo()
+    {
+        midi.configureMIDI();
+        System.out.println("end");
+    }
+
+    @FXML
     private void setTempoLabel()
     {
         tempoLabel.setText("Tempo: " + midi.getTempo());
     }
 
-    public void tempoScrollBarAddValueListener()
+    private void tempoScrollBarAddValueListener()
     {
         tempoScrollBar.valueProperty().addListener(event ->
         {
             midi.setTempo((int) tempoScrollBar.getValue());
             setTempoLabel();
+            //midi.configureMIDI();
         });
     }
 
